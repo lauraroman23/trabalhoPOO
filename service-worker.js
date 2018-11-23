@@ -1,4 +1,4 @@
-const HOST='https://andersonprante.github.io/todo-simple' 
+const HOST='https://lauraroman23.github.io/trabalhoPOO' 
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
@@ -10,7 +10,7 @@ var cacheName = 'empregada-app';
 var filesToCache = [
   `${HOST}/img/perfil.png`,
   `${HOST}/app.js`,
-  `${HOST}/estilo.css`,
+  `${HOST}/css/estilo.css`,
   `${HOST}/index.html`,
   `${HOST}/Store.js`,
   `${HOST}/Empregada.js`,
