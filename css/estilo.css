@@ -1,0 +1,22 @@
+#txtBusca{
+  float:right;
+  padding-left:5px; 
+  font-size:18px;
+  height:32px;
+  width:191px;
+}
+
+#lista{
+    padding-top: 130px;
+}
+
+#itensRenderizados{
+    padding-top: 25px;
+    padding-left: 100px;   
+}
+
+#img{
+    width: 150px;
+    height: 150px;
+    padding-left: 10px;   
+}
