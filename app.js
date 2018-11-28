@@ -32,6 +32,7 @@ let componentList2 = (items) => {
 
 //buscando 
 busca.addEventListener('keyup', function(e) {
+    console.log("dados novos no filtro")
     let textoParaBuscar = busca.value  //pega valor que está sendo digitado
     listaFiltrada = lista.empregada.filter(function(e){
         if (e.nome.toLowerCase().includes(textoParaBuscar)) 
